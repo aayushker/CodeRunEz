@@ -3,9 +3,7 @@
 <p id="description">CodeRunEz is a Bash script designed to streamline directory navigation within the Documents folder. It identifies Next.js or React projects and launches their development servers, while it initiates the Live Server for rapid development for vanilla HTML-CSS-JS files.</p>
 
   
-  
 <h2>🧐 Features</h2>
-
 Here're some of the project's best features:
 
 *   Fast
@@ -15,6 +13,19 @@ Here're some of the project's best features:
 *   Support for Next.js and React Projects
 *   Support for HTML/CSS/JS Projects
 
+<h2>📋 Requirements</h2>
+This script is written in Bash so it will run only on the system that has the Bash interpreter installed. I have tested it and made it on a Linux system (Fedora) but it may also run on MacOS and Unix-like systems, for Windows you can run Bash scripts using the Windows Subsystem for Linux (WSL) or using third-party tools like Git Bash or Cygwin.  
+<br>
+<br>
+
+*   You have super user permissions
+*   VS code installed  
+*   Live server installed
+<p>If not, install it using (npm required)</p>
+
+```
+npm install -g live-server
+```
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -47,7 +58,6 @@ chmod +x start
 ```
 echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
 ```
-
 ```
 source ~/.bashrc
 ```
@@ -58,14 +68,10 @@ source ~/.bashrc
 start dir_name
 ```
 
-  
-  
+
 <h2>💻 Built with</h2>
-
 Technologies used in the project:
-
 *   Bash
 
 <h2>🛡️ License:</h2>
-
 This project is licensed under the MIT License
