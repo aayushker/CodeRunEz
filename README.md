@@ -14,7 +14,7 @@ Here're some of the project's best features:
 *   Support for HTML/CSS/JS Projects
 
 <h2>📋 Requirements</h2>
-This script is written in Bash so it will run only on the system that has the Bash interpreter installed. I have tested it and made it on a Linux system (Fedora) but it may also run on MacOS and Unix-like systems, for Windows you can run Bash scripts using the Windows Subsystem for Linux (WSL) or using third-party tools like Git Bash or Cygwin.  
+This script is written in Shell so it will run only on the system that has the Bash interpreter installed. I have tested it and made it on a Linux system (Fedora) but it may also run on MacOS and Unix-like systems, for Windows you can run Bash scripts using the Windows Subsystem for Linux (WSL) or using third-party tools like Git Bash or Cygwin.  
 <br>
 <br>
 
