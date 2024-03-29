@@ -69,6 +69,13 @@ start dir_name
 ```
 
 
+<h2>🚫 Limitations</h2>
+
+*  Limited platform support
+*  Limited Project Type Detection
+*  Assumption that the project directories are stored in the documents folder
+*  Potential Security Risks as running a script from an unknown source is dangerous
+
 <h2>💻 Built with</h2>
 Technologies used in the project:
 *   Bash
