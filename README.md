@@ -40,7 +40,7 @@ cd /bin
 sudo touch start
 ```
 
-<p>3. Add the contents of the script file to the file created</p>
+<p>3. Add the contents of the start.sh file to the file created</p>
 
 ```
 sudo vim start
@@ -74,6 +74,7 @@ Here're are some limitations which I will try to cover in the future:
 *  Limited platform support
 *  Limited Project Type Detection
 *  Assumption that the project directories are stored in the documents folder
+*  File naming issue, as there can be more than one file with the same name in different directories
 *  Potential Security Risks as running a script from an unknown source is dangerous
 
 <h2>💻 Built with</h2>
