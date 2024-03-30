@@ -38,7 +38,7 @@ cd /bin
 <p>2. Create a new script file named start (or any other name you prefer)</p>
 
 ```
-touch start
+sudo touch start
 ```
 
 <p>3. Add the contents of the script file to the file created</p>
